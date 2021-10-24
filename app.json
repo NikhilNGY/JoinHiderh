@@ -1,0 +1,24 @@
+{
+  "name": "Join-Hider",
+  "logo": "https://telegra.ph/file/618a1a11f70ec0a3d137d.jpg",
+  "description": "A join hider bot.",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Enter bot token.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal.",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal.",
+      "value": ""
+    }
+  },
+   "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
